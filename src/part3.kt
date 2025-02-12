@@ -7,10 +7,10 @@ fun main() {
     );
 
     countryCapitals["Canada"] = "Ottawa";
-    println(countryCapitals.keys);
-    println(countryCapitals.values);
+    println("Countries: ${countryCapitals.keys}");
+    println("Capitals: ${countryCapitals.values}");
 
     countryCapitals.remove("Germany");
-    println(countryCapitals);
+    println("Final Map: ${countryCapitals}");
 
 }
